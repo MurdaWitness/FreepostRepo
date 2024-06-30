@@ -41,7 +41,7 @@ FreepostRepo - это веб-платформа для централизова�
 	return [
     'driver' => 'your_database_driver',
     'host' => 'your_database_host',
-    'port' => your_database_port,
+    'port' => 'your_database_port',
     'database' => 'your_database_name',
     'username' => 'your_database_username',
     'password' => 'your_database_password',
