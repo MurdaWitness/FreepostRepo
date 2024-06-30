@@ -1,0 +1,63 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+.status-green {
+    color: green;
+}
+
+.status-yellow {
+    color: orange;
+}
+
+.status-gray {
+    color: gray;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.header-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    -webkit-filter: invert(0.8);
+    filter: invert(0.8);
+}
+
+.uploaded-files {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.user-picture {
+    width: 64px;
+    height: 64px;
+    margin-right: 5px;
+}
+
+.user-name {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.vr {
+    border-left: 1px solid #dee2e6;
+    height: 100%;
+}
